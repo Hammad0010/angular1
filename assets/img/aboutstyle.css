@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: 'Lato';
+}
+/* Navbar */
+.navbar-brand{
+    font-family: 'Pacifico';
+    font-size: 22px;
+    color: lightcoral !important;
+}
+.nav-link{
+    font-size: 16px;   
+    margin-left: 15px;
+    color: black !important;
+    font-family: 'Roboto Condensed';
+}
+.nav-link:hover{
+    color: #00E8E8 !important;
+}
+.active .nav-link{
+    color: #00E8E8 !important;
+}
+.collapse img{
+margin-left: 30%;
+}
+/* Top Picture */
+#one{
+    background-image: url('b3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+#one .site-title, .site-desc{
+    color: white;
+    font-family: 'Righteous';
+}
+.site-title{
+    margin-top: 30%;
+    margin-bottom: 5%;
+    font-size: 40px;
+}
+.site-desc{
+    font-size: 14px;
+    padding-left: 15%;
+}
+.site-btn1{
+    margin-left: 30%;
+    background-color: white;
+    color: black;
+    margin-top: 95%;
+    margin-bottom: 40%;
+}
+/* Services */
+.icon i{
+	color: #0cb8b6;
+	font-size: 45px;
+	margin-bottom: 15px;
+}
+.service-info{
+	margin-bottom: 20px;
+}
+.icon-info h4{
+	padding-bottom: 15px;
+}
+.icon-info p{
+	font-size: 15px !important;
+}
+#service{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: justify;
+}
+/* A Few Words */
+#mesage{
+    background-color: rgb(41, 48, 46);
+    color:whitesmoke;
+    width: 100%;
+    text-align: justify;
+}
+#mesage h2{
+	margin-top: 15%;
+}
+/* .footer */
+.social i{
+    color: #EF5651;
+    font-size: 20px;
+}

@@ -1,0 +1,153 @@
+
+
+<body>
+    
+    <div class="row text-center">
+    
+        <div class="member-1">
+            <div class="talha">
+                <span><img style="height: 400px;" src="/assets/img/img2.jpg" alt="talha"  class="circle"></span>
+            </div>
+
+            <div class="desc">
+                <h5>TALHA AHMED</h5>
+                <h5>HAMMAD MUSAWAR</h5>
+                <h6 class="text-dark"></h6>
+                <p class="info-text-dark">
+                    Contact No:	03237007336<br>
+                    Whatsapp No: 03237007336<br>
+                    Email: Talhaahmed40000@gmail.com<br>
+                </p>
+                <p class="social-icon text-center">
+                    <span><i class="fab fa-facebook-f"></i></span>
+                    <span><i class="fab fa-twitter"></i></span>
+                    <span><i class="fab fa-linkedin-in"></i></span>
+                    <span><i class="fab fa-instagram"></i></span>
+                    
+                </p>
+
+                </div>
+            </div>
+        </div>
+    
+
+            <!-- Contact US Through Phone, Address -->
+<div class="container center">
+<div class="content-6"><hr>
+    <div class="row animated heartBeat delay-2s">
+        <div class="col-md-11 text-center">
+            
+                <h6 style="color: #EF233C; margin-top: 4%;">Contact US</h6>
+                <h3>Get in Touch</h3>
+                <p style="font-size:14px; margin-top:4%; margin-bottom:6%;">
+                    Being a team player is an essential trait to develop as an individual in the hospitality and tourism industry. Team players work constructively with everyone in the business, from employees and coworkers to managers, customers, and guests. They create weekly schedules to staff the hotel or event, and they resolve conflicts between employees should they arise.
+                </p>
+        </div>
+    </div>
+    <div class="row contact">
+        <div class="col-md-4 text-center animated heartBeat delay-2s">
+            <span><i class="fas fa-mobile-alt fa-3x"></i></span>
+            <h5 style="margin-top:8%;">Phone</h5>
+            <p style="font-size:14px;">03237007336</p>
+        </div>
+        <div class="col-md-4 text-center animated heartBeat delay-2s">
+            <span><i class="fas fa-map-marker-alt fa-3x"></i></span>
+            <h5 style="margin-top:8%;">Address</h5>
+            <p style="font-size:14px;">Air University Islamabad.</p>
+        </div>
+        <div class="col-md-4 text-center animated heartBeat delay-2s">
+            <span><i class="fas fa-envelope-open fa-3x"></i></span>
+            <h5 style="margin-top:8%;">Email</h5>
+            <p style="font-size:14px;">Tourism125@gmail.com</p>
+        </div>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="row mt-4 center">
+        <div class="col-md-10 offset-md-1 ">
+            <form action="">
+                <div class="form-row">
+                    <div class="col">
+                        <input type="text" id="name" placeholder="Name" class="form-control">
+                    </div>
+                    <div class="col">
+                        <input type="text" id="email" placeholder="Email" class="form-control *">
+                    </div>
+                </div>
+                <div class="form-row py-3">
+                    <div class="col">
+                            <input type="text" id="subject" placeholder="Subject" class="form-control">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <textarea name="" id="comment" cols="1" rows="5" placeholder="Message" class="form-control *"></textarea>
+                    </div>
+                </div>
+                <div class="form-row py-3">
+                    <div class="col">
+                        <button class="form-control btn-submit btn-danger" type="submit" onclick="check()" >Submit</button>
+                    </div>
+                </div>
+            </form><hr>
+        </div>
+    </div>
+</div>
+</div>
+
+
+
+
+<footer>
+<!-- Footer -->
+<div class="section-5 text-center">
+    <h4 style="margin-top:5%;">“The journey is the destination.”</h4>
+    <h4 class="my-2">If you need any Help</h4>
+
+    <div class="form-inline justify-content-center">
+        <input type="text" name="Email" id="Email" placeholder="Write a questions here?" size="36" class="form-control px-4 py-2">
+        <a href="Contact US.html"><input type="button" value="Submit"  class="btn btn-danger px-4 py-2 ml-2"></a>
+    </div>
+
+    <div class="social" style="margin:5%;">
+    <div class="d-flex flex-row justify-content-center">
+        <i class="fab fa-facebook-f m-2"></i>
+        <i class="fab fa-twitter m-2"></i>
+        <i class="fab fa-instagram m-2"></i>
+        <i class="fab fa-youtube m-2"></i>
+    </div>
+    </div>
+
+    <hr>
+    <h5 style="color:lightseagreen">HELLO Tourism &copy;</h5>
+</div>
+</footer>
+
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scrollreveal.min.js"></script>
+<script src="main.js"></script>
+
+<script>
+window.sr =ScrollReveal({duration : 1000});
+sr.reveal('.site-content .d-flex');
+sr.reveal('.section-1 .card');
+sr.reveal('.section-2 .d-flex');
+sr.reveal('.section-5, col-md-4');
+function check(){
+    var name=document.getElementById('name').value;
+    var email=document.getElementById('Email').value;
+    var comment=document.getElementById('comment').value;
+    var subject=document.getElementById('subject').value;
+    if (name=="" || email=="" || comment=="" || subject=="")
+    {
+        alert('PLEASE FILL ALL THE REQUIREMENTS');
+    }
+    else {
+        alert('THANK U FOR GETTING IN TOUCH WITH US.')
+           location.href='mailto:Tourism125@gmail.com';
+   }
+}
+
+</script>

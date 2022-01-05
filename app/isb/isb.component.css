@@ -1,0 +1,129 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu');
+*{
+    padding: 0%;
+    margin-left: 0%;
+}
+body{
+    padding: 0%;
+    font-family: 'Lato';
+}
+#one{
+    background-image: url('/assets/img/b3.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+#one .site-title, .site-desc{
+    color: white;
+    font-family: 'Righteous';
+}
+.site-title{
+    margin-top: 30%;
+    margin-bottom: 5%;
+    font-size: 40px;
+}
+.site-desc{
+    font-size: 14px;
+    padding-left: 15%;
+}
+.site-btn1{
+    margin-left: 30%;
+    background-color: white;
+    color: black;
+    margin-top: 95%;
+    margin-bottom: 40%;
+}
+/* Section 1 */
+.section-1 .heading-1{
+    margin-top: 4%;
+}
+.section-1 .heading-2{
+    margin-top: 4%;
+    font-size: 39px;
+}
+.section-1 .para-1{
+    width: 60%;
+    margin-left: 20%;
+}
+
+.section-1 .para-2{
+    width: 60%;
+    margin-left: 20%;
+    margin-bottom: 4%;
+}
+.section-1 p {
+    color: rgba(0, 0 ,0,0.59);
+}
+.section-1{
+    margin-bottom: 4%;
+}
+
+.section-1 .btn{
+    margin-top: 0;
+    margin-bottom: 2%;
+    width: 40%;
+}
+/* Sect
+       /* Packages */
+       .packages .heading-1{
+        margin-top: 4%;
+     }
+     .packages .heading-2{
+        margin-top: 4%;
+        font-size: 28px;
+        margin-bottom: 1.5%;
+     }
+     .packages h3{
+        margin-top: 4%;
+        font-size: 24px;
+     }
+     .packages h5{
+        margin-top: 1.5%;
+        font-size: 15.5px;
+     }
+    
+    .packages h4{
+       margin-top: 1.5%;
+       font-size: 17px;
+    }
+     .packages .para{
+         width: 60%;
+         margin-left: 20%;
+      }
+      
+    .packages p {
+        color: rgba(0, 0 ,0,0.59);
+    }
+    .packages{
+        margin-bottom: 4%;
+    }
+    
+    .packages .btn{
+        margin-top: 0;
+        margin-bottom: 2%;
+        width: 40%;
+    }
+    /* Slider */
+.carousel{
+    margin-left: 21%;
+}
+
+.slider .heading-2{
+    margin-top: 4%;
+    font-size: 28px;
+    margin-bottom: 1.5%;
+ }
+ .slider h5{
+    margin-top: 1.5%;
+    font-size: 16px;
+ }
+ .slider .para{
+     width: 60%;
+     margin-left: 20%;
+  }
+/* .footer */
+.social i{
+    color: #EF5651;
+    font-size: 20px;
+}

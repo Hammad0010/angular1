@@ -1,0 +1,95 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lato';
+    position:fixed;
+}
+.navbar-brand{
+    font-family: 'Pacifico';
+    font-size: 22px;
+    color: lightcoral !important;
+}
+.m8{
+  margin-right: 0px;
+}
+.nav-link{
+    font-size: 16px;   
+    margin-left: 15px;
+    color: black !important;
+    font-family: 'Roboto Condensed';
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  background-color:white;
+  position: absolute;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.sidebar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+.main {
+  margin-left: 160px; 
+  padding: 0px 10px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.nav-link:hover{
+    color: #00E8E8 !important;
+}
+.active .nav-link{
+    background-image: url('/assets/img/b3.jpg');
+    color: #00E8E8 !important;
+}
+
